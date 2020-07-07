@@ -10,7 +10,7 @@ const qBank = [
     question:
       'Where is the train station "Llanfair­pwllgwyngyll­gogery­chwyrn­drobwll­llan­tysilio­gogo­goch"?',
     answers: ["Wales", "Moldova", "Czech Republic", "Denmark"],
-    correct: "Wales",
+    correct: "Maldova",
     questionId: "183452"
   },
   {
