@@ -26,7 +26,7 @@ class QuizApp extends Component {
             });
         }
         this.setState({
-            responses: this.state.responses < 10 ? this.state.responses + 1 : 10
+            responses: this.state.responses < 5 ? this.state.responses + 1 : 10
 
         });
     };
@@ -46,7 +46,7 @@ class QuizApp extends Component {
         return (
             <div className="container">
                 <div className="title">Quiz App</div>
-                {this.state.questionBank.length > 0 && this.state.responses < 10 && this.state.questionBank.map(
+                {this.state.questionBank.length > 0 && this.state.responses < 5 && this.state.questionBank.map(
                     ({question, answers,correct,questionId}) => (
                         <QuestionBox 
                         question ={question}

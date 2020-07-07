@@ -1,154 +1,154 @@
 const qBank = [
   {
     question:
-      "Virgin Trains, Virgin Atlantic and Virgin Racing, are all companies owned by which famous entrepreneur?   ",
-    answers: ["Richard Branson", "Alan Sugar", "Donald Trump", "Bill Gates"],
-    correct: "Richard Branson",
+      " Everything in React is a _____________     ",
+    answers: ["Module", "Component", "Package", "Class"],
+    correct: "Component",
     questionId: "099099"
   },
   {
     question:
-      'Where is the train station "Llanfair­pwllgwyngyll­gogery­chwyrn­drobwll­llan­tysilio­gogo­goch"?',
-    answers: ["Wales", "Moldova", "Czech Republic", "Denmark"],
-    correct: "Wales",
+      " In which directory React Components are saved?",
+    answers: ["Inside js/components/", "Inside/Vendor/components/", "Inside external/components/", "Inside vendor/"],
+    correct: "Inside js/components",
     questionId: "183452"
   },
   {
     question:
-      "Which company did Valve cooperate with in the creation of the Vive?",
-    answers: ["HTC", "Oculus", "Google", "Razer"],
-    correct: "HTC",
+      "How many elements does a react component return?",
+    answers: ["2 Elements", "1 Element", "Multiple Elements", "None of these"],
+    correct: "Multiple Elements",
     questionId: "267908"
   },
   {
-    question: "What's the name of Batman's  parents?",
+    question: "What is state in React?",
     answers: [
-      "Thomas & Martha",
-      "Joey & Jackie",
-      "Jason & Sarah",
-      "Todd & Mira"
+      "A persistant storage",
+      "An internal data store(object) of a component",
+      "Both",
+      "None of these"
     ],
-    correct: "Thomas & Martha",
+    correct: "An internal data store(object) of a component",
     questionId: "333247"
   },
   {
-    question: "What is the most common surname Wales?",
-    answers: ["Jones", "Williams", "Davies", "Evans"],
-    correct: "Jones",
+    question: "What is Babel?",
+    answers: ["A transpiler", "An interpreter", "A compiler", "Both Compiler and Transpiler"],
+    correct: "Both Compiler and Transpiler",
     questionId: "496293"
   },
   {
     question:
-      "What was the name of the WWF professional wrestling tag team made up of the wrestlers Ax and Smash?",
+      "What does the webpack command do?",
     answers: [
-      "Demolition",
-      "The Dream Team",
-      "The Bushwhackers",
-      "The British Bulldogs"
+      "Transpiles all the javascript down into one file",
+      "Runs react local development server",
+      "A module bundler",
+      "None of these"
     ],
-    correct: "Demolition",
+    correct: "A module bundler",
     questionId: "588909"
   },
   {
     question:
-      'What name represents the letter "M" in the NATO phonetic alphabet?',
-    answers: ["Mike", "Matthew", "Mark", "Max"],
-    correct: "Mike",
+      ' What port is the default where the webpack-dev-server will run?',
+    answers: ["3000", "8080", "3306", "None of these"],
+    correct: "8080",
     questionId: "648452"
   },
   {
-    question: "What is the first book of the Old Testament?",
-    answers: ["Genesis", "Exodus", "Leviticus", "Numbers"],
-    correct: "Genesis",
+    question: " What is ReactJS?",
+    answers: ["Server side Framework", "User-Interface framework", "A library for buliding interaction interfaces", "None of these"],
+    correct: "A library for buliding interaction interfaces",
     questionId: "786649"
   },
   {
     question:
-      "In the video-game franchise Kingdom Hearts, the main protagonist, carries a weapon with what shape?",
-    answers: ["Key", "Sword", "Pen", "Cellphone"],
-    correct: "Key",
+      "What are the two ways that data gets handled in React?",
+    answers: ["State & props", "Services & components", "Both", "None of these"],
+    correct: "State & props",
     questionId: "839754"
   },
   {
     question:
-      "Which best selling toy of 1983 caused hysteria, resulting in riots breaking out in stores?",
+      "In React what is used to pass data to a component from outside?",
     answers: [
-      "Cabbage Patch Kids",
-      "Transformers",
-      "Care Bears",
-      "Rubik’s Cube"
+      "setState",
+      "render with arguments",
+      "props",
+      "Prop Types"
     ],
-    correct: "Cabbage Patch Kids",
+    correct: "Props",
     questionId: "98390"
   },
   {
-    question: "What does a funambulist walk on?",
-    answers: ["A Tight Rope", "Broken Glass", "Balls", "The Moon"],
-    correct: "A Tight Rope",
+    question: "Props are __________ into other components",
+    answers: ["Methods", "Injected", "Both 1 & 2", "All of the above"],
+    correct: "Methods",
     questionId: "1071006"
   },
   {
-    question: "In past times, what would a gentleman keep in his fob pocket?",
-    answers: ["Watch", "Money", "Keys", "Notebook"],
-    correct: "Watch",
+    question: "IHow can you access the state of a component from inside of a member function?",
+    answers: ["this.getState()", "this.values", "this.prototype.stateValue", "this.state"],
+    correct: "this.values",
     questionId: "1174154"
   },
   {
-    question: "Area 51 is located in which US state?",
-    answers: ["Nevada", "Arizona", "New Mexico", "Utah"],
-    correct: "Nevada",
+    question: "What is a react.js in MVC?",
+    answers: ["Middleware", "Controller", "Model", "Router"],
+    correct: "Controller",
     questionId: "1226535"
   },
   {
-    question: "How would one say goodbye in Spanish?",
-    answers: ["Adiós", " Hola", "Au Revoir", "Salir"],
-    correct: "Adiós",
+    question: "ReactJS uses _____ to increase performance",
+    answers: ["Original DOM", "Virtual DOM", "Both 1 & 2", "None of Above"],
+    correct: "Virtual DOM",
     questionId: "1310938"
   },
   {
-    question: "What is the largest organ of the human body?",
-    answers: ["Skin", "Heart", "large Intestine", "Liver"],
-    correct: "Skin",
+    question: "Keys are given to a list of elements in react. These keys should be -",
+    answers: ["Do not requires to be unique", "Uniques in the DOM", "Unique among the siblings only", "All of the above"],
+    correct: "Unique among the siblings only",
     questionId: "1436873"
   },
   {
-    question: "Which sign of the zodiac is represented by the Crab?",
-    answers: ["Cancer", "Libra", "Virgo", "Sagittarius"],
-    correct: "Cancer",
+    question: "Which of the following is the correct data flow sequence of flux concept?",
+    answers: ["Dispatcher->Action->Store->View", "Action->Dispatcher->Store->View", "Action->Dispatcher->Store->View", "Action->Store->Dispatcher->View"],
+    correct: "Action->Dispatcher->Store->View",
     questionId: "1515110"
   },
   {
-    question: "On a dartboard, what number is directly opposite No. 1?",
-    answers: ["19", "20", "12", "15"],
-    correct: "19",
+    question: "React.js Covers only the view layer of the app.?",
+    answers: ["Yes", "No", "Maybe", "None"],
+    correct: "Yes",
     questionId: "1642728"
   },
   {
     question:
-      "What does the 'S' stand for in the abbreviation SIM, as in SIM card? ",
-    answers: ["Subscriber", "Single", "Secure", "Solid"],
-    correct: "Subscriber",
+      "What is the name of React.js Developer ? ",
+    answers: ["Jordan mike", "Jordan Lee", "Jordan Walke", "Tim lee"],
+    correct: "Jordan Walke",
     questionId: "1747256"
   },
   {
     question:
-      "What word represents the letter 'T' in the NATO phonetic alphabet?",
-    answers: ["Tango", "Target", "Taxi", "Turkey"],
-    correct: "Tango",
+      "Who Develop React.js?",
+    answers: ["Apple", "Facebook", "Twitter", "Google"],
+    correct: "Facebook",
     questionId: "1822532"
   },
   {
-    question: "Which American president appears on a one dollar bill?",
+    question: " .............. helps react for keeping their data unidirectional.",
     answers: [
-      "George Washington",
-      "Thomas Jefferson",
-      "Abraham Lincoln",
-      "Benjamin Franklin"
+      "JSX",
+      "Flux",
+      "Dom",
+      "Props"
     ],
-    correct: "George Washington",
+    correct: "Flux",
     questionId: "195075"
   }
 ];
 
-export default (n = 10) =>
+export default (n = 5) =>
   Promise.resolve(qBank.sort(() => 0.5 - Math.random()).slice(0, n));
